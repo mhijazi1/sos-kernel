@@ -20,6 +20,14 @@ The Makefile currently expects that you're using cross-compiled GNU `binutils`, 
 
 ### Building & Running
 
+This project includes Git submodules; you will want to clone it using `git clone --recursive` or run `git submodule update --init` after cloning.
+
+#### You will need:
+
++ Rust; I strongly recommend installing it using [multirust](https://github.com/brson/multirust)
++ `nasm`
++ `grub-mkrescue` and possibly `xorriso` depending on whether your system considers it to be part of the `mkrescue` package (ugh)
++ `qemu`, specifically `qemu-system-x86_64`; unless you want to try SOS on bare metal (which I cannot possibly endorse)
 
 + **Setting up**
     + You only need to run these steps once

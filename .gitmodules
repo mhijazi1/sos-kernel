@@ -1,3 +1,4 @@
 [submodule "lib/rust"]
 	path = lib/rust
-	url = git:/git@github.com:emk/rust.git
+	url = https://github.com/emk/rust.git
+	branch = origin/libcore_nofp
